@@ -4,7 +4,7 @@ target
 /.idea
 /.metals
 /.vscode
-/.bloops
+/.bloop
 /.bsp
 /project/.bloop
 /project/project
