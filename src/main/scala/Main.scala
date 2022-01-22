@@ -11,6 +11,4 @@ object Main extends App:
       case (_, 0) => a2(m - 1, 1)
       case (_, _) => a2(m - 1, a2(m , n - 1))
 
-  for (m <- 0 to 3 ; n <- 0 to 3)
-    println(s"a1($m, $n) = ${a1(m, n)}")
-    println(s"a2($m, $n) = ${a2(m, n)}")
+  println(a1(4,1))
